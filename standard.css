@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 html { height: 100%; margin-bottom: 1px; }
 
@@ -24,7 +24,7 @@ p {
 div {
 	text-align:left;
 	position:fixed; 
-	bottom:5px;
+	bottom:15px;
 	font:10px arial,sans-serif;
 	color:#4682B4;
 }
@@ -32,7 +32,7 @@ div {
 div#visaip {
 	text-align:left;
 	position:fixed; 
-	bottom:35px;
+	bottom:45px;
 	font:10px arial,sans-serif;
 	color:#4682B4;
 }
@@ -49,6 +49,12 @@ div#w3validhtml{
     right:5px;
 }
 
+div#w3love{
+    position:fixed; 
+	bottom:26px;
+    right:100px;
+}
+
 a:link, a:active, a:visited {
 	color: #000000;
 	text-decoration: none;
@@ -61,8 +67,9 @@ a:hover {
 
 #indextabell {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    width: 50%;
+    width: 98%;
     border-collapse: collapse;
+    position:fixed;
 }
 
 #indextabell td, #indextabell th {
