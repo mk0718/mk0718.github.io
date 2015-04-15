@@ -32,25 +32,21 @@ div {
 div#visaip {
 	text-align:left;
 	position:fixed; 
-	bottom:10px;
+	bottom:35px;
 	font:10px arial,sans-serif;
 	color:#4682B4;
 }
 
 div#w3validcss{
-	text-align:right;
-	position:fixed; 
+    position:fixed; 
 	bottom:5px;
-	font:10px arial,sans-serif;
-	color:#4682B4;
+    right:5px;
 }
 
 div#w3validhtml{
-	text-align:right;
-	position:fixed; 
-	bottom:10px;
-	font:10px arial,sans-serif;
-	color:#4682B4;
+    position:fixed; 
+	bottom:45px;
+    right:5px;
 }
 
 a:link, a:active, a:visited {
