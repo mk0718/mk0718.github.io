@@ -30,9 +30,25 @@ div {
 }
 
 div#visaip {
+	text-align:left;
+	position:fixed; 
+	bottom:10px;
+	font:10px arial,sans-serif;
+	color:#4682B4;
+}
+
+div#w3validcss{
+	text-align:right;
 	position:fixed; 
 	bottom:5px;
-    right:5px;
+	font:10px arial,sans-serif;
+	color:#4682B4;
+}
+
+div#w3validhtml{
+	text-align:right;
+	position:fixed; 
+	bottom:10px;
 	font:10px arial,sans-serif;
 	color:#4682B4;
 }
