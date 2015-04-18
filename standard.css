@@ -15,10 +15,9 @@ h1 {
    
 }
 
-p {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    	font:15px;
-	color:#000000;
+p.a{
+    font:10px arial,sans-serif;
+	color:#B8B8B8;
 }
 
 div {

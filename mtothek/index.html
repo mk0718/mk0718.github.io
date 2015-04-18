@@ -1,0 +1,76 @@
+<html>
+<head>
+    
+<meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="js/m.min.css">
+
+    <title>Testing</title>
+    </head>
+    <body>
+        <script id="tpl" type="text/html">
+<div class="grid">
+        <div class="page hide" id="loading">
+            <%=loading%>
+        </div>
+        <div class="page hide" id="index">
+            <h1><%=title%></h1>
+            <div class="btns">
+                <button data-type="color" class="btn play-btn">
+                    <%=btn_start%>
+                </button>
+            </div>
+        </div>
+        <div class="page hide" id="room">
+            <header>
+                <span class="lv">
+                    <%=score%>
+                    <em>
+                        1
+                    </em>
+                </span>
+                <span class="time">
+                </span>
+                <span class="btn btn-pause">
+                    <%=btn_pause%>
+                </span>
+            </header>
+            <div id="box" class="lv1">
+            </div>
+            	
+        </div>
+        <div class="page hide" id="dialog">
+            <div class="inner">
+                <div class="content gameover">
+                    <div class="inner-content">
+   
+                        <h3></h3>
+                        <div class="btn-wrap">
+                            <button class="btn btn-restart">
+                                <%=btn_reTry%>
+                            </button>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="content pause">
+                    <div class="inner-content">
+                      
+                        <h3>
+                            <%=game_pause%>
+                        </h3>
+                        <div class="btn-wrap">
+                            <button class="btn btn-resume">
+                                <%=btn_resume%>
+                            </button>
+                          
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div></script><script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+    </body>
+</html>
